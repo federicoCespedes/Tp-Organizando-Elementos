@@ -1,0 +1,470 @@
+
+.home{
+  
+    font-family:'Roboto';
+    text-decoration: none;
+    background-color: var(--color-gris-claro);
+}
+
+/**** header ****/
+
+.home header{
+    background-color: var(--color-amarillo);
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+.home header img{
+    width: 40%;
+    height: auto;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.home header p {
+     text-align: center;
+     font-size: 12px;
+     margin-top: 10px;
+     margin-bottom: 10px;
+
+}
+
+/* Header -> search bar (Barra de búsqueda)*/
+
+.home p{
+    width: 100% ;
+}
+.home .search{
+    display: flex;
+    width: 50%;
+    padding: 0px;
+    margin-left: 10px;
+}
+.home .search input{
+    width: 80%;
+    padding: 0px;
+    margin-left: 10px;
+}
+.home .search i{
+    display: flex;
+    
+    margin-bottom: 1px ;
+    font-size: 14px;
+}
+
+/*Header -> navbar (Barra de navegación)*/
+
+.home nav{
+    width: 100%;
+}
+.home nav .navbar{
+    display: none;
+    font-size: 12px ;
+    text-align: left;
+    list-style: none;
+    margin-left:0px;
+    padding: 0;
+}
+
+.home nav a{
+    text-decoration: none;
+    color: black;
+}
+
+/*Header -> Login bar (Barra de acceso)*/
+
+.home nav .login-bar{
+    display: none;
+    font-size: 12px ;
+    text-align: left;
+    list-style: none;
+    margin-left:0px;
+    padding: 0;
+}
+
+/*Header -> burger menu (menú hamburguesa)*/
+
+.home nav .burger{
+    display: block;
+    background-color: var(--color-celeste);
+    color: var(--color-gris-claro);
+    border-radius: 6px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding-top: 5px;
+    margin-left: auto;
+    margin-right: auto;      
+}
+
+
+/*main*/
+
+.home .menu{
+   
+    background-color: var(--color-gris-claro);
+    text-align: center;
+    width: 100%;
+  
+ 
+}
+.home .caja{
+    display: flex;
+    background-color: var(--color-gris-claro);
+}
+.home .banner{
+    width: 100%;  
+}
+
+.home .menu h2{
+    color: var(--color-gris-oscuro);
+    font-size: var(--Titulares);
+    margin-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 12px;
+}
+
+.home .menu .precios {
+    font-size: var(--Precios);
+
+}
+
+.home .menu span{
+    font-size: var(--Descuentos);
+  
+    color: var(--color-verde);
+}
+.home .menu .descripciones{ 
+    display: none;
+
+}
+.home .menu img{
+    width: 100%;  
+    padding: 0px 10px ;
+    
+}
+.home .menu article{
+    margin-bottom: 0px;
+    background-color: var(--color-gris-claro);
+   
+}
+
+.home .menu article .art{
+    display: flex;
+    position: relative;
+    text-align: left;
+    align-items: center;
+    width: 93.7%;
+    height: 100px;
+  border-top: solid 1px var(--color-gris-claro);
+  background-color: white;
+  margin: -5px 25px 10px 10px ;
+}
+
+.home .menu article .art span{
+    margin-left: 15px;
+    margin-top: 2px;
+}
+
+.home .menu article i{
+    position: relative;
+    align-items: center;
+    left: 16em;
+    bottom: 50px;
+    padding: 8px;
+    width: 35px;
+    height: 35px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 100%;
+    color: #39b54a;
+}
+
+
+
+/*footer*/
+
+.home footer{
+    margin: auto;
+    background-color: white;
+    width: 98%;
+}
+.home footer section{
+text-align: center;
+}
+
+
+.home footer p{
+color: var(--color-gris-oscuro);
+font-size: var(--Cuerpos-de-texto);
+text-align:center;
+margin: 20px 15px 30px 0px;
+
+}
+
+.home footer h4{
+  margin: 0px;
+   
+   
+}
+.home footer section i{
+
+ color: var(--color-celeste);
+ font-size: 2em;
+ margin-top: 30px;
+ margin-bottom: 10px;
+ 
+}
+
+.home footer .copyright{
+
+    text-align: left;
+}
+
+
+@media (min-width:361px){
+
+    /*Header -> */
+
+    .home header{
+        display: flex;
+        width: 100%;
+    }
+    .home header img{
+        width: 30%;
+        height: auto;
+        padding: 10px;
+        margin-left: 10px;
+    }
+    
+    .home nav .navbar{
+     display: block;
+    }
+     .home nav .burger{
+      display: none;
+    }
+
+    /* Header -> search bar (Barra de búsqueda)*/
+
+.home p{
+    width: 33% ;
+}
+.home .search{
+    display: flex;
+    width: 30%;
+    padding: 0px;
+    margin-left: 10px;
+}
+
+ /*Header -> navbar (Barra de navegación)*/
+
+.home nav{
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    
+   }
+
+.home nav .navbar{
+    width: 40%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+
+
+ /*Header -> Login bar (Barra de acceso)*/
+
+    .home nav .login-bar{
+        display: flex;
+        width: 40%;
+        justify-content: space-around;
+        margin-left: 100px;
+      }
+
+   /*main*/
+   
+  .home .menu section{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 93%;
+    align-items: center;
+    margin-left: 50px;
+    margin-bottom: 50px;
+ 
+  }
+  
+
+  .home .menu article{
+      display: flex;
+      flex-wrap: wrap;
+      margin-left: 20px;
+      margin-bottom: 36px;
+      width: 40%;
+      background-color: white;
+  
+  }
+  .home .menu article:hover{
+    box-shadow: 0 0 10px rgb(100, 100, 100);
+}
+  .home .menu  h2{
+      display: flex;
+      width: 100%;
+      height: 5px;
+      margin-bottom: 40px;
+  }
+  
+.home .menu article .art{
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+  
+}
+.home .menu article .art span{
+    width: 30%;
+    margin-top: 20px;
+
+}
+
+.home .menu article i{
+    bottom: 30px;
+}
+.home .menu article i:hover{
+    transform: rotate(-90deg);
+    transition: 0.9s;
+}
+
+.home .menu article .art p{
+    width: 38%;
+    margin-top: 20px;
+   
+}
+
+
+.home .menu p.descripciones{  
+    display: block;
+    color: white;
+    font-size: 11px;
+   }
+
+   .home .menu p.descripciones:hover{  
+    display: block;
+    color: var(--color-gris-oscuro);
+    font-size: 11px;
+   }
+
+
+.home .menu article i{
+    position: relative;
+    align-items: center;
+    left: 14em;
+}
+
+/* Footer*/
+
+.home footer{
+    margin: auto;
+    background-color: white;
+    width: 98%;
+    text-align: center;
+    align-items: center;
+}
+.home footer section p{
+margin-top: 30px;
+margin-left: 249px ;
+
+}
+
+
+.home footer p{
+color: var(--color-gris-oscuro);
+font-size: var(--Cuerpos-de-texto);
+margin-left: 249px;
+
+}
+}
+@media (min-width:769px){
+
+ .home header{
+     display: flex;
+     width: 100%;
+  }
+/* Header -> search bar (Barra de búsqueda)*/
+
+.home p{
+    width: 33% ;
+
+}
+.home .search{
+   
+   margin: auto;
+    display: flex;
+    width: 30%;
+    padding: 0px; 
+}
+
+.home header p{
+    font-size: 17px;
+}
+
+.home .search input{
+ font-size: 20px;
+ width: 250px;
+
+
+}
+.home .search i{
+    font-size: 20px;
+    }
+
+      /*main*/
+      .home .menu section{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 93%;
+        align-items: center;
+        margin-left: 50px;
+        margin-bottom: 50px;
+      }
+ 
+      .home .menu article{
+          width: 22%;
+      }
+
+      .home .menu article i {
+        position: relative;
+        align-items: center;
+        left: 10em;
+}
+.home .menu article .art{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.home footer section p{
+    color: var(--color-gris-oscuro);
+    font-size: var(--Cuerpos-de-texto);
+    text-align:center;
+    margin-left: 140px;
+    }
+
+    .home footer .extra-footer{
+        display: flex;
+        
+    }
+
+
+
+}
+

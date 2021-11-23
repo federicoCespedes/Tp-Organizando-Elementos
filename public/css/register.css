@@ -1,0 +1,306 @@
+
+.register header{
+    background-color: var(--color-amarillo);
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}.register header img{
+    width: 40%;
+    height: auto;
+    padding: 10px;
+    margin-left: 10px;
+}
+.register header p {
+     text-align: center;
+     font-size: 12px;
+     margin-top: 10px;
+     margin-bottom: 10px;
+
+}
+
+/* Header -> search bar (Barra de búsqueda)*/
+.register p{
+    width: 100% ;
+}.register .search{
+    display: flex;
+    width: 50%;
+    padding: 0px;
+    margin-left: 10px;
+}.register .search input{
+    width: 80%;
+    padding: 0px;
+    margin-left: 10px;
+}.register .search i{
+    display: flex;
+    
+    margin-bottom: 1px ;
+    font-size: 14px;
+}
+
+/*Header -> navbar (Barra de navegación)*/
+.register nav{
+    width: 100%;
+}.register nav .navbar{
+    display: none;
+    font-size: 12px ;
+    text-align: left;
+    list-style: none;
+    margin-left:0px;
+    padding: 0;
+}
+
+.register nav a{
+    text-decoration: none;
+    color: black;
+}
+
+/*Header -> Login bar (Barra de acceso)*/
+.register nav .login-bar{
+    display: none;
+    font-size: 12px ;
+    text-align: left;
+    list-style: none;
+    margin-left:0px;
+    padding: 0;
+}
+
+/*Header -> burger menu (menú hamburguesa)*/
+
+.register nav .burger{
+    display: block;
+    background-color: var(--color-celeste);
+    color: var(--color-gris-claro);
+    border-radius: 6px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding-top: 5px;
+    margin-left: auto;
+    margin-right: auto;      
+}
+
+/*-----------------main----------------*/
+.register .menu {
+    background-color: var(--color-gris-claro);
+    padding: 10px;
+}
+.register .menu h4{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+/*-------Seccion Datos del usuario--------- */
+
+.register .menu .datosUsuario input{
+    width: 100%;
+    border-radius: 3%;
+    border-style: none;
+    height: 40px;
+    margin-bottom: 30px;  
+    text-align: left  
+}
+input::placeholder {
+    padding-left: 10px;
+}
+
+/*-------Seccion Perfil del usuario--------- */
+
+.register .menu .perfilUser input{
+ margin-left: 50px;  
+}
+
+.register .menu .intereses input{
+    margin-bottom: 25px;
+}
+.register .menu .intereses label{
+    margin-left: 15px;
+}
+
+.register .menu .fotoUser{
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.register .menu .fotoUser input{
+    margin-top: 10px;
+}
+
+.register .menu .contraseñas input{
+    display: flex;
+    flex-direction: row;
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+.register .menu .buttons button{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+
+/*-----------------footer----------------*/
+.register footer{
+    margin: auto;
+    background-color: white;
+    width: 98%;
+}
+.register footer section{
+text-align: center;
+}
+
+
+.register footer p{
+color: var(--color-gris-oscuro);
+font-size: var(--Cuerpos-de-texto);
+text-align:center;
+margin: 20px 15px 30px 0px;
+
+}
+
+.register footer h4{
+  margin: 0px;
+   
+   
+}
+.register footer section i{
+
+ color: var(--color-celeste);
+ font-size: 2em;
+ margin-top: 30px;
+ margin-bottom: 10px;
+ 
+}
+
+.register footer .copyright{
+
+    text-align: left;
+}
+
+@media (min-width:361px){
+      /*Header -> */
+
+    .register header{
+        display: flex;
+        width: 100%;
+    }
+    .register header img{
+        width: 30%;
+        height: auto;
+        padding: 10px;
+        margin-left: 10px;
+    }
+    
+    .register nav .navbar{
+     display: block;
+    }
+     .register nav .burger{
+      display: none;
+    }
+
+    /* Header -> search bar (Barra de búsqueda)*/
+
+.register p{
+    width: 33% ;
+}
+.register .search{
+    display: flex;
+    width: 30%;
+    padding: 0px;
+    margin-left: 10px;
+}
+
+ /*Header -> navbar (Barra de navegación)*/
+
+.register nav{
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    
+   }
+
+.register nav .navbar{
+    width: 40%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+
+ /*Header -> Login bar (Barra de acceso)*/
+
+    .register nav .login-bar{
+        display: flex;
+        width: 40%;
+        justify-content: space-around;
+        margin-left: 100px;
+      }
+/* Footer*/
+
+.register footer{
+    margin: auto;
+    background-color: white;
+    width: 98%;
+    text-align: center;
+    align-items: center;
+}
+.register footer section p{
+margin-top: 30px;
+margin-left: 249px ;
+
+}
+
+
+.register footer p{
+color: var(--color-gris-oscuro);
+font-size: var(--Cuerpos-de-texto);
+margin-left: 249px;
+
+}
+
+}
+@media (min-width:769px){
+
+    /*------------HEADER---------*/
+  .register header{
+        display: flex;
+        width: 100%;
+     }
+   /* Header -> search bar (Barra de búsqueda)*/
+   
+   .register p{
+       width: 33% ;
+   
+   }
+   .register .search{
+      
+      margin: auto;
+       display: flex;
+       width: 30%;
+       padding: 0px; 
+   }
+   
+   .register header p{
+       font-size: 17px;
+   }
+   
+   .register .search input{
+    font-size: 20px;
+    width: 250px;
+   
+   
+   }
+   .register .search i{
+       font-size: 20px;
+       }
+
+        /*---------FOOTER----------*/
+   .register footer section p{
+    color: var(--color-gris-oscuro);
+    font-size: var(--Cuerpos-de-texto);
+    text-align:center;
+    margin-left: 340px;
+    }
+
+       
+}

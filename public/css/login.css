@@ -1,0 +1,311 @@
+
+
+.login header{
+    background-color: var(--color-amarillo);
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}.login header img{
+    width: 40%;
+    height: auto;
+    padding: 10px;
+    margin-left: 10px;
+}
+.login header p {
+     text-align: center;
+     font-size: 12px;
+     margin-top: 10px;
+     margin-bottom: 10px;
+
+}
+
+/* Header -> search bar (Barra de búsqueda)*/
+.login p{
+    width: 100% ;
+}.login .search{
+    display: flex;
+    width: 50%;
+    padding: 0px;
+    margin-left: 10px;
+}.login .search input{
+    width: 80%;
+    padding: 0px;
+    margin-left: 10px;
+    border: 2px solid white;
+      border-radius: 4%;
+       }
+.login .search i{
+    display: flex;
+    
+    margin-bottom: 1px ;
+    font-size: 14px;
+}
+
+/*Header -> navbar (Barra de navegación)*/
+.login nav{
+    width: 100%;
+}.login nav .navbar{
+    display: none;
+    font-size: 12px ;
+    text-align: left;
+    list-style: none;
+    margin-left:0px;
+    padding: 0;
+}
+
+.login nav a{
+    text-decoration: none;
+    color: black;
+}
+
+/*Header -> Login bar (Barra de acceso)*/
+.login nav .login-bar{
+    display: none;
+    font-size: 12px ;
+    text-align: left;
+    list-style: none;
+    margin-left:0px;
+    padding: 0;
+}
+
+/*Header -> burger menu (menú hamburguesa)*/
+
+.login nav .burger{
+    display: block;
+    background-color: var(--color-celeste);
+    color: var(--color-gris-claro);
+    border-radius: 6px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding-top: 5px;
+    margin-left: auto;
+    margin-right: auto;      
+}
+
+/*-----------------main----------------*/
+
+.login .menu {
+    background-color: var(--color-gris-claro);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.login .menu .caja1{
+    width: 60%;
+    text-align: center;
+}
+
+.login .menu .caja2{
+    width: 60%;
+    margin-top: 10px;
+    text-align: center;
+   
+}
+.login .menu input{
+ border: 2px solid white;
+ border-radius: 4%;
+ width: 100%;
+ margin-left: 150px;
+ height: 40px;
+ margin-top: 40px;
+}
+
+.login .menu button {
+   
+    width: 60%;
+    background-color: var(--color-celeste);
+    color: white;
+    border: 2px solid var(--color-celeste);
+    height: 40px;
+    margin: 210px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.login .menu button:hover{
+    background-color: #0022AA;
+}
+
+/*-----------------footer----------------*/
+.login footer{
+    margin: auto;
+    background-color: white;
+    width: 98%;
+}
+.login footer section{
+text-align: center;
+}
+
+
+.login footer p{
+color: var(--color-gris-oscuro);
+font-size: var(--Cuerpos-de-texto);
+text-align:center;
+margin: 20px 15px 30px 0px;
+
+}
+
+.login footer h4{
+  margin: 0px;
+   
+   
+}
+.login footer section i{
+
+ color: var(--color-celeste);
+ font-size: 2em;
+ margin-top: 30px;
+ margin-bottom: 10px;
+ 
+}
+
+.login footer .copyright{
+
+    text-align: left;
+}
+
+@media (min-width:361px){
+      /*Header -> */
+
+    .login header{
+        display: flex;
+        width: 100%;
+    }
+    .login header img{
+        width: 30%;
+        height: auto;
+        padding: 10px;
+        margin-left: 10px;
+    }
+    
+    .login nav .navbar{
+     display: block;
+    }
+     .login nav .burger{
+      display: none;
+    }
+
+    /* Header -> search bar (Barra de búsqueda)*/
+
+.login p{
+    width: 33% ;
+}
+.login .search{
+    display: flex;
+    width: 30%;
+    padding: 0px;
+    margin-left: 10px;
+}
+
+ /*Header -> navbar (Barra de navegación)*/
+
+.login nav{
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    
+   }
+
+.login nav .navbar{
+    width: 40%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+
+ /*Header -> Login bar (Barra de acceso)*/
+
+    .login nav .login-bar{
+        display: flex;
+        width: 40%;
+        justify-content: space-around;
+        margin-left: 100px;
+      }
+/* Footer*/
+
+.login footer{
+    margin: auto;
+    background-color: white;
+    width: 98%;
+    text-align: center;
+    align-items: center;
+}
+.login footer section p{
+margin-top: 30px;
+margin-left: 249px ;
+
+}
+
+
+.login footer p{
+color: var(--color-gris-oscuro);
+font-size: var(--Cuerpos-de-texto);
+margin-left: 249px;
+
+}
+
+}
+@media (min-width:769px){
+
+    /*------------HEADER---------*/
+  .login header{
+        display: flex;
+        width: 100%;
+     }
+   /* Header -> search bar (Barra de búsqueda)*/
+   
+   .login p{
+       width: 33% ;
+   
+   }
+   .login .search{
+      
+      margin: auto;
+       display: flex;
+       width: 30%;
+       padding: 0px; 
+   }
+   
+   .login header p{
+       font-size: 17px;
+   }
+   
+   .login .search input{
+    font-size: 20px;
+    width: 250px;
+   
+   
+   }
+   .login .search i{
+       font-size: 20px;
+       }
+/*-----------------main----------------*/
+.login .menu .caja1{
+    width: 60%;
+    text-align: center;
+    margin-left: 55px;
+}
+
+.login .menu .caja2{
+    width: 60%;
+    margin-left: 55px;
+    margin-top: 10px;
+    text-align: center;
+   
+}
+        /*---------FOOTER----------*/
+   .login footer section p{
+    color: var(--color-gris-oscuro);
+    font-size: var(--Cuerpos-de-texto);
+    text-align:center;
+    margin-left: 340px;
+    }
+
+       
+}
